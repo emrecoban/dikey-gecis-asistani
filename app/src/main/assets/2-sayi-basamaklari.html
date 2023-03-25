@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=0.65">
+<title>Dikey Geçiş Asistanı</title>
+<link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+<h1>Sayı Basamakları</h1>
+<p>Bir doğal sayının tabanına g&ouml;re aldığı değere <strong>basamak değeri</strong> ve o sayının her basamağını oluşturan rakamlara da <strong>basamak</strong> denir.</p>
+<p>(abcde)<sub>n&nbsp;</sub>&nbsp;sayısında &quot;n&quot; değeri sayı tabanı ve a, b, c, d, e sayı basamakları olmak &uuml;zere;</p>
+<p>a, b, c, d, e basamaklarının n sayısına g&ouml;re aldığı değerlere basamak değeri denir.</p>
+<p><strong>&Ouml;rneğin:</strong></p>
+<p>(324)<sub>10 </sub>sayısında&nbsp;</p>
+<p>4: 10<sup>0</sup>&nbsp;lar basamağı (birler basmağı),</p>
+<p>2: 10<sup>1</sup>ler basamağı (onlar basmağı),</p>
+<p>3: 10<sup>2</sup>&nbsp;ler basamağı (y&uuml;zler basamağı) dır.&nbsp;</p>
+<p>Sayı okunurken sayının sayı değeri ile basmak değeri bilikte okunur (&uuml;&ccedil; y&uuml;z yirmi d&ouml;rt).</p>
+<p>Eğer sayı tabanı olarak 10 yerine başka bir sayı kullanılsaydı sayı basamakları birler, sekizler, altmış d&ouml;rtler ... olarak gidecekti.</p>
+<h2>Sayı Basamaklarının &Ouml;zellikleri</h2>
+<ol>
+    <li>Sayı yazılırken hi&ccedil; bir rakam taban değerinden b&uuml;y&uuml;k olamaz.</li>
+    <li>İki sayı arasında işlem yapılabilmesi i&ccedil;in sayıların taban değerleri aynı olmalıdır.</li>
+    <li>Sayılar toplanırken veya &ccedil;arpılırken toplam taban değerine eşitse 0 alınr, b&uuml;y&uuml;kse sayı tabanına b&ouml;l&uuml;n&uuml;p kalan yazılır ve b&ouml;l&uuml;m bir &uuml;st basamağa eklenir.</li>
+    <li>Sayıların basamak değeri sayının virg&uuml;l&uuml;n solunda kalan kısmının tabanı sırayla 0, 1, 2, 3,.. gibi kuvvetleri alınarak bulunurken sağında kalan kısımının basamak değeri sırayla -1, -2, -3,... gibi kuvvetler alınarak bulunur.</li>
+</ol>
+<h2>&Ccedil;&ouml;z&uuml;mleme</h2>
+<p>&Ccedil;&ouml;z&uuml;mleme işlemi yapılırken her sayının sayı değeri ile basamak değeri &ccedil;arpılarak ayrıştırılır.</p>
+<p>a, b, c, d sayıları n sayı tabanından k&uuml;&ccedil;&uuml;k olmak &uuml;zere&nbsp;(abcd)<sub>n&nbsp;</sub>sayısının&nbsp;</p>
+<p>n: taban değeri</p>
+<p>d: n<sup>0</sup> lar basamağı</p>
+<p>c: n<sup>1</sup> ler basamağı</p>
+<p>b: n<sup>2 </sup>ler basamağı</p>
+<p>a: n<sup>3</sup> ler basamağı</p>
+<p>olduğuna g&ouml;re</p>
+<p>(abcd)<sub>n</sub>&nbsp;= d.n<sup>0</sup> + c.n<sup>1</sup> + b.n<sup>2</sup> + a.n<sup>3</sup> d&uuml;r.</p>
+<h2>Herhangi Bir Sayı Tabanındaki Sayıyı 10 Tabanına D&ouml;n&uuml;şt&uuml;rme</h2>
+<p>Bu işlem yapılırken &ccedil;&ouml;z&uuml;mleme işleminden faydalanılır. Bir sayıyı 10 tabanına d&ouml;n&uuml;şt&uuml;rmek i&ccedil;in sayı tabanına g&ouml;re &ccedil;&ouml;z&uuml;mlenir, yani; sayıyın her basamağındaki rakam basamak değeriyle &ccedil;arpılıp toplanır, &ccedil;ıkan sonu&ccedil; o sayının 10 tabanındaki karşılığıdır.</p>
+<p><strong>&Ouml;rnek:&nbsp;</strong></p>
+<p>(425)<sub>7</sub> sayısının 10 tabanındaki karşılığını bulalım.</p>
+<p><strong>&Ccedil;&ouml;z&uuml;m:</strong></p>
+<p>(425)<sub>7</sub> = (5.7<sup>0</sup> + 2.7<sup>1</sup> + 4.7<sup>2</sup>)<sub>10</sub></p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;= (5 + 14 + 196)<sub>10</sub></p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;= (<strong>215)<sub>10</sub> </strong>dir.</p>
+<h2>10 Tabanındaki Bir Sayıyı Herhangi Bir Tabana D&ouml;n&uuml;şt&uuml;rme</h2>
+<p>10 tabanında verilen bir sayı, başka bir tabana &ccedil;evrilirken, verilen sayı ardışık olarak istenen tabana b&ouml;l&uuml;n&uuml;r. Bu b&ouml;lme işlemine b&ouml;l&uuml;m 0 olana kadar devam edilir. En son elde edilen kalan, istenen sayının solundaki rakam olacak şekilde, kalanlar sırasıyla sayının rakamlarını oluşturur. Bu işlem bir sayının istenen tabanda &ccedil;&ouml;z&uuml;mleme işlemidir.</p>
+<p><strong>&Ouml;rnek:</strong></p>
+<p>(612)<sub>10</sub> sayısını 9 tabanındaki karşılığını bulalım.</p>
+<p><strong>&Ccedil;&ouml;z&uuml;m:</strong></p>
+<p>(612)<sub>10</sub> = (7.9<sup>2</sup> + 5.9<sup>1</sup> + 0.9<sup>0</sup>)<sub>9</sub></p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;= <strong>(750)<sub>9&nbsp;</sub></strong>dir.</p>
+<h2>Herhangi Bir Tabanda Verilen Bir Sayının Başka Bir Tabana D&ouml;n&uuml;şt&uuml;r&uuml;lmesi</h2>
+<p>Herhangi bir sayı tabanındaki bir sayıyı bir başka tabana d&ouml;n&uuml;şt&uuml;rmek i&ccedil;in &ouml;ncelikle sayı o tabana g&ouml;re .&ccedil;&ouml;z&uuml;mlenip 10 tabanına d&ouml;n&uuml;şt&uuml;r&uuml;l&uuml;r. Sonra 10 tabanındaki bu sayı d&ouml;n&uuml;şt&uuml;r&uuml;lmek istenen tabana gerekli işlemler uygulanılarak d&ouml;n&uuml;şt&uuml;r&uuml;l&uuml;r. Bu işlem bir a&ccedil;ma - kapatma işlemine benzetilebilir.</p>
+<p><strong>&Ouml;rnek:</strong></p>
+<p>(213)<sub>4</sub> sayısının 5 tabanındaki karşılığını bulalım.</p>
+<p><strong>&Ccedil;&ouml;z&uuml;m:</strong></p>
+<p>&Ouml;nce &ccedil;&ouml;z&uuml;mleme işlemi yaparak sayının 10 tabanındaki karşılığını buluyoruz.</p>
+<p>(213)<sub>4</sub> = (3.4<sup>0</sup> + 1.4<sup>1</sup> + 2.4<sup>2</sup>)<sub>10</sub></p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; = (3 + 4 + 32)<sub>10</sub></p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; = (39)<sub>10</sub></p>
+<p>Şimdi 10 tabanında karşılığını bulduğumuz bu sayıyı istenen tabana d&ouml;n&uuml;şt&uuml;r&uuml;yoruz.</p>
+<p>(39)<sub>10 </sub>= (1.5<sup>2</sup> + 2.5<sup>1</sup> + 4.5<sup>0</sup>)<sub>5</sub></p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;= <strong>(124)</strong><sub><strong>5</strong></sub></p>
+<div class="not"><strong>Not:&nbsp;</strong>10 tabanındaki bir sayıyı hangi sayıya g&ouml;re &ccedil;&ouml;z&uuml;mleresek o sayı tabanındaki karşılığını bulmuş oluruz.</div>
+<h2>Herhangi Bir Tabana G&ouml;re İşlemler</h2>
+<p>İki sayı arasında herhangi bir işlem yapılabilmesi i&ccedil;in &ouml;ncelikle her iki sayının tabanlarının aynı olması gerekmektedir. Eğer aynı değilse bu sayıların aynı tabandaki karşılığı bulunduktan sonra aralarında işlem yapılabilir.</p>
+<p><strong>&Ouml;rnek:</strong></p>
+<p>(45)<sub>9</sub> + (423)<sub>5</sub> işleminin sonucunun 3 tabandaki karşılığı ka&ccedil;tır?</p>
+<p><strong>&Ccedil;&ouml;z&uuml;m:</strong></p>
+<p>(45)<sub>9</sub> = (4.9 + 5.1)<sub>10</sub></p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; = (41)<sub>10</sub></p>
+<p>(423)<sub>5</sub> = (4.25 + 2.5 + 3.1)<sub>10</sub></p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;= (113)<sub>10</sub></p>
+<p>(41)<sub>10</sub> + (113)<sub>10</sub> = (154)<sub>10</sub></p>
+<p>(154)<sub>10</sub> = (1.81 + 2.27 + 2.9 + 0.3 + 1.1 )<sub>3</sub></p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;= <strong>(12201)<sub>3</sub></strong> dir.</p>
+</body>
+</html>

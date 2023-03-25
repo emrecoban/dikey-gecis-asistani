@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=0.65">
+<title>Dikey Geçiş Asistanı</title>
+<link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+<h1>&Ccedil;arpanlara Ayırma</h1>
+<p>A, B, C dereceleri 1 den b&uuml;y&uuml;k &uuml;&ccedil; polinom olsun. C = A.B ise A ve B polinomlarına C polinomunun <strong>&ccedil;arpanı </strong>denir.</p>
+<p>C polinomunun derecesi A ve B polinomlarının derecelerinin toplamına eşittir.</p>
+<p>C = A.B, B = P.Q ise C = A.P.Q olur. Bir polinomun &ccedil;arpanları ikiden fazla da olabilir.</p>
+<h2>&Ccedil;arpanlara Ayırma Y&ouml;ntemleri</h2>
+<h3>I. Ortak &Ccedil;arpan Parantezine Alma</h3>
+<p>Her terimde ortak olan &ccedil;arpan parantez dışına alınarak ifade &ccedil;arpanlarına ayrılmış olur.</p>
+<h3>II. Gruplama Yaparak Ortak &Ccedil;arpan Parantezine Alma</h3>
+<p>Bu y&ouml;ntemde verilen polinom (&ccedil;ok terimli) ikişerli, &uuml;&ccedil;erli, ... gruplara ayrılır. Bu gruplarda ardarda ortak &ccedil;arpan parantezine alma &nbsp;işlemlerine devam edilerek verilen polinom &ccedil;arpanlara ayrılmış olur.</p>
+<h3>III. &Ouml;zdeşliklerden Yararlanma</h3>
+<h4>1. İki terimin Karesi</h4>
+<p>(a + b)<sup>2&nbsp;</sup>= a<sup>2</sup> + 2ab + b<sup>2</sup> = (a + b)(a + b)</p>
+<p>(a - b)<sup>2&nbsp;</sup>= a<sup>2</sup> - 2ab + b<sup>2</sup> = (a - b)(a - b)</p>
+<h4>2. İki Terimin K&uuml;p&uuml;</h4>
+<p>(a + b)<sup>3 </sup>= a<sup>3</sup>&nbsp;+ 3a<sup>2</sup>b + 3ab<sup>2</sup> + b<sup>3</sup></p>
+<p>(a - b)<sup>3&nbsp;</sup>= a<sup>3</sup>&nbsp;- 3a<sup>2</sup>b + 3ab<sup>2</sup>&nbsp;- b<sup>3</sup></p>
+<h4>3. İki Kare Farkı</h4>
+<p>a<sup>2</sup> - b<sup>2</sup> = (a - b)(a + b)</p>
+<h4>4. İki k&uuml;p Toplamı</h4>
+<p>a<sup>3</sup> + b<sup>3</sup> = (a + b)(a<sup>2</sup> - ab + b<sup>2</sup>) &nbsp;veya</p>
+<p>a<sup>3</sup> + b<sup>3</sup> = (a + b)<sup>3</sup> - 3ab(a + b)</p>
+<h4>5. İki K&uuml;p Farkı</h4>
+<p>a<sup>3</sup>&nbsp;- b<sup>3</sup>&nbsp;= (a - b)(a<sup>2</sup>&nbsp;+ ab + b<sup>2</sup>) &nbsp;veya</p>
+<p>a<sup>3</sup>&nbsp;- b<sup>3</sup>&nbsp;= (a - b)<sup>3</sup>&nbsp;- 3ab(a - b)</p>
+<h4>6. &Uuml;&ccedil; Terimli Bir İfadenin Karesi</h4>
+<p>(a + b + c)<sup>2 </sup>= a<sup>2</sup> + b<sup>2</sup> + c<sup>2&nbsp;</sup>+ 2(ab + ac + bc)</p>
+<h4>7. x<sup>n</sup> + y<sup>n</sup> nin &Ccedil;arpanları</h4>
+<p>n pozitif tam sayı olmak &uuml;zere</p>
+<ul>
+    <li>x<sup>n</sup> - y<sup>n</sup> = (x - y)(x<sup>n-1</sup> + x<sup>n-2</sup>y + ... + xy<sup>n-2</sup> + y<sup>n-1</sup>)</li>
+</ul>
+<p>n tek doğal sayı olmak &uuml;zere</p>
+<ul>
+    <li>&nbsp;x<sup>n</sup>&nbsp;+ y<sup>n</sup>&nbsp;= (x + y)(x<sup>n-1</sup>&nbsp;- x<sup>n-2</sup>y + ... - xy<sup>n-2</sup>&nbsp;+ y<sup>n-1</sup>)</li>
+</ul>
+<p>denklemleri vardır.</p>
+<h4>8. Terim Ekleme ve &Ccedil;ıkarma</h4>
+<p>Bazı ifadeler ilk bakışta &ccedil;arpanlara ayrılmaz gibi g&ouml;r&uuml;n&uuml;rler. Ancak Bu ifadelere uygun olan bir terim eklenir ve &ccedil;ıkarılırsa ifade &ccedil;arpanlara ayrılır durumuna gelebilir.</p>
+<h4>9. ax<sup>2</sup> + bx + c nin &Ccedil;arpanları</h4>
+<p>ax<sup>2</sup> + bx + c ifadesindea<span style="color: rgb(51, 51, 51); font-family: Arial; font-size: 15px; line-height: 20px; white-space: nowrap;">&nbsp;&ne;&nbsp;</span>0, b, c reel sayılardır.&nbsp;</p>
+<p>&Delta; = b<sup>2</sup> - 4ac&nbsp;&ge; 0 ise ax<sup>2</sup> + bx + c ifadesi reel sayılar k&uuml;mesinde &ccedil;arpanlara ayrılabilir.</p>
+<p>ax<sup>2 </sup>+ bx + c ifadesinde a = 1 ise ifademiz x<sup>2</sup> + bx + c ifadesine d&ouml;n&uuml;ş&uuml;r. x<sup>2</sup> + bx + c yi &ccedil;arpanlara ayırmak i&ccedil;in toplamları b, &ccedil;arpımları c olan iki sayı bulmalıyız. Bu sayılar x<sub>1</sub> ve x<sub>2</sub> ise</p>
+<p>x<sup>2</sup> + bx + c = (x + x<sup>1</sup>)(x + x<sup>2</sup>) olur.</p>
+<div class="not">
+<p><strong>Uyarı:</strong></p>
+<p>a&nbsp;<span style="color: rgb(51, 51, 51); font-family: Arial; font-size: 15px; line-height: 20px; white-space: nowrap;">&ne;</span>&nbsp;1 ise ax<sup>2</sup> + bx + c &uuml;&ccedil; terimlisinde a nın &ccedil;arpanları m, n ve c nin &ccedil;arpanları e, f olmak &uuml;zere;</p>
+<p>ax<sup>2</sup> + bx + c = (mx + e)(nx + f) ise m.f + n.e = b dir.</p>
+
+</body>
+</html>

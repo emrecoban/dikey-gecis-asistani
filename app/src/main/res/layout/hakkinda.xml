@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    android:scrollbars="none">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="25dp">
+
+            <LinearLayout
+                android:layout_marginBottom="10dp"
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_about"
+                android:layout_gravity="left"
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/dgsico"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textSize="17dp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dikey Geçiş Asistanı"/>
+            <TextView
+                android:textSize="16dp"
+                android:textColor="#bde6f5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ÖSYM tarafından her yıl düzenlenen Dikey Geçiş Sınavı adaylarına rehberlik etmesi için hazırlandı."/>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:textSize="17dp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sürüm"/>
+            <TextView
+                android:textSize="16dp"
+                android:textColor="#bde6f5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="v2.0.3"/>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:textSize="17dp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bana Ulaşın"/>
+            <TextView
+                android:textSize="16dp"
+                android:textColor="#bde6f5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Emre ÇOBAN\nwww.emrecoban.com.tr\nemre@emrecoban.com.tr\n\nHata ve önerilerinizi lütfen bildirin."/>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:textSize="17dp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Güncelleme Günlükleri"/>
+            <TextView
+                android:textSize="16dp"
+                android:textColor="#bde6f5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="v2.0.3:\n• Kullanıcı arama özelliği eklendi.\n• Bazı hatalar giderildi.
+                              \n\nv2.0.2:\n• Bağır-Çağır iyileştirildi.\n• Bazı hatalar giderildi.
+                              \n\nv2.0.1:\n• Sınav kronometresi güncelleştirildi.\n• Denemeler ekranına ortalama net sayıları eklendi.\n• Kaydet butonu özelleştirildi.\n• Bazı hatalar giderildi.
+                              \n\nv2.0.0:\n• Bağır Çağır ekranı iyileştirildi.\n• Denemeler ekranına ortalama net sayıları eklendi.\n• Görünümde iyileştirmeler yapıldı.\n• Bazı hatalar giderildi.
+                              \n\nv1.9.120117:\n• Sınav Bilgileri eklendi.\n• Konu Anlatımlarına ve Konu Takibine Geometri dersi eklendi.\n• Sınav Kronometresine zil sesi eklendi.\n• Kişiye özel profil ekranı oluşturuldu.\n• Bağır Çağır şimdi çok daha iyi!
+                              \n\nv1.8.271117:\n• 2018-Dikey Geçiş Sınavı\'na kalan zaman güncelleştirildi.\n• Deneme Takibi eklendi.\n• Bağır Çağır ile artık daha sosyalsiniz.
+                              \n\nv1.7.100917:\n • 2018-Dikey Geçiş Sınavı\'na kalan zaman aktif edildi.\n • 2017-DGS Katsayısı eklendi.\n • Konu Takibine toplam sonuçlar eklendi.
+                              \n\nv1.6.160717:\n • Konu takibi eklendi.\n • İyileştirmeler yapıldı.\n • Bazı hatalar giderildi.
+                              \n\nv1.5.050717:\n • Bildirim geçmişi eklendi.\n • DGS Puanını paylaşma özelliği eklendi.\n • Bazı hatalar giderildi.
+                              \n\nv1.4.230617:\n • Kişiselleştirme özelliği eklendi.\n • Hakkında bilgileri eklendi.\n • Bazı hatalar giderildi.
+                              \n\nv1.3.150617:\n • EBOB ve EKOK çarpanlarına ayırma özelliği eklendi.\n • Arayüzde iyileştirmeler yapıldı.\n • Bazı hatalar giderildi.
+                              \n\nv1.2:\n • Matematik ve Türkçe konu anlatımları eklendi.\n • 2014 yılı DGS katsayısı eklendi.\n • Bildirim özelliği eklendi.\n • Uygulama simgesi değiştirildi.
+                              \n\nv1.1:\n • Bazı hatalar giderildi.
+                              \n\nv1.0:\n • İlk sürüm!"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

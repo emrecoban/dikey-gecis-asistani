@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="MatKonu">
+        <item>1. Temel Kavramlar</item>
+        <item>2. Sayı Basamakları</item>
+        <item>3. Bölme - Bölünebilme</item>
+        <item>4. EBOB - EKOK</item>
+        <item>5. Mutlak Değer</item>
+        <item>6. Üslü İfadeler</item>
+        <item>7. Köklü Sayılar</item>
+        <item>8. Çarpanlara Ayırma</item>
+        <item>9. Kümeler</item>
+        <item>10. Fonksiyonlar</item>
+        <item>11. Rasyonel Sayılar</item>
+        <item>12. Basit Eşitsizlik</item>
+        <item>13. İşlem</item>
+        <item>14. Oran - Orantı</item>
+        <item>15. Modüler Aritmetik</item>
+        <item>16. Problemler</item>
+        <item>17. Kombinasyon</item>
+        <item>18. Permütasyon</item>
+        <item>19. Olasılık</item>
+    </string-array>
+    <string-array name="MatURL">
+        <item>1-temel-kavramlar</item>
+        <item>2-sayi-basamaklari</item>
+        <item>3-bolme-bolunebilme</item>
+        <item>4-ebob-ekok</item>
+        <item>5-mutlak-deger</item>
+        <item>6-uslu-ifadeler</item>
+        <item>7-koklu-sayilar</item>
+        <item>8-carpanlara-ayirma</item>
+        <item>10-kumeler</item>
+        <item>11-fonksiyonlar</item>
+        <item>11-rasyonel-sayilar</item>
+        <item>12-basit-esitsizlik</item>
+        <item>13-islem</item>
+        <item>14-oran-oranti</item>
+        <item>15-mod</item>
+        <item>16-problemler</item>
+        <item>17-kombinasyon</item>
+        <item>18-permutasyon</item>
+        <item>19-olasilik</item>
+    </string-array>
+    <string-array name="TRKonu">
+        <item>1. Kelime Anlamı</item>
+        <item>2. Cümle Anlamı</item>
+        <item>3. Paragraf</item>
+        <item>4. Dil Bilgisi Ekler</item>
+        <item>5. Sözcüğün Yapısı</item>
+        <item>6. Cümlenin Öğeleri</item>
+        <item>7. Cümle Vurgusu</item>
+        <item>8. Fiil Çatısı</item>
+        <item>9. Cümle Çeşitleri</item>
+        <item>10. Anlatım Bozukluğu</item>
+        <item>11. Ses Bilgisi</item>
+        <item>12. Noktalama İşaretleri</item>
+        <item>13. Yazım Kuralları</item>
+        <item>14. Paragrafta Anlam</item>
+        <item>15. Tamlamalar</item>
+    </string-array>
+    <string-array name="TRURL">
+        <item>tr1-kelime-anlami</item>
+        <item>tr2-cumle-anlami</item>
+        <item>tr3-paragraf</item>
+        <item>tr4-dilbilgisi-ekler</item>
+        <item>tr5-sozcugun-yapisi</item>
+        <item>tr6-cumlenin-ogeleri</item>
+        <item>tr7-cumle-vurgusu</item>
+        <item>tr8-fiil-catisi</item>
+        <item>tr9-cumle-cesitleri</item>
+        <item>tr10-anlatim-bozuklugu</item>
+        <item>tr11-ses-bilgisi</item>
+        <item>tr12-noktalama-isaretleri</item>
+        <item>tr13-yazim-kurallari</item>
+        <item>tr14-paragrafta-anlam</item>
+        <item>tr15-tamlamalar</item>
+    </string-array>
+    <string-array name="GEOKonu">
+        <item>1. Geometrik Kavramlar</item>
+        <item>2. Üçgen</item>
+        <item>3. Açı Kenar</item>
+        <item>4. Özel Üçgenler</item>
+        <item>5. Üçgende Alan</item>
+        <item>6. Açıortay</item>
+        <item>7. Kenarortay</item>
+        <item>8. Benzerlik</item>
+        <item>9. Çokgenler</item>
+        <item>10. Dörtgenler</item>
+        <item>11. Paralelkenar</item>
+        <item>12. Dikdörtgen</item>
+        <item>13. Kare</item>
+        <item>14. Deltoid</item>
+        <item>15. Yamuk</item>
+        <item>16. Çemberde Açı</item>
+        <item>17. Çemberde Uzunluk</item>
+        <item>18. Çemberde Benzerlik</item>
+        <item>19. Daire Alanı ve Çevresi</item>
+    </string-array>
+    <string-array name="GEOURL">
+        <item>g1-temel-kavramlar</item>
+        <item>g2-ucgen</item>
+        <item>g3-aci-kenar</item>
+        <item>g4-ozel-ucgenler</item>
+        <item>g5-ucgende-alan</item>
+        <item>g6-aciortay</item>
+        <item>g7-kenarortay</item>
+        <item>g8-benzerlik</item>
+        <item>g9-cokgenler</item>
+        <item>g10-dortgenler</item>
+        <item>g11-paralelkenar</item>
+        <item>g12-dikdortgen</item>
+        <item>g13-kare</item>
+        <item>g14-deltoid</item>
+        <item>g15-yamuk</item>
+        <item>g16-cemberde-aci</item>
+        <item>g17-cemberde-uzunluk</item>
+        <item>g18-cemberde-benzerlik</item>
+        <item>g19-daire-alani-cevresi</item>
+    </string-array>
+
+
+    <string-array name="KTMat">
+        <item>1. Temel Kavramlar</item>
+        <item>2. Sayı Basamakları</item>
+        <item>3. Bölme - Bölünebilme</item>
+        <item>4. EBOB - EKOK</item>
+        <item>5. Mutlak Değer</item>
+        <item>6. Üslü İfadeler</item>
+        <item>7. Köklü Sayılar</item>
+        <item>8. Çarpanlara Ayırma</item>
+        <item>9. Kümeler</item>
+        <item>10. Fonksiyonlar</item>
+        <item>11. Rasyonel Sayılar</item>
+        <item>12. Basit Eşitsizlik</item>
+        <item>13. İşlem</item>
+        <item>14. Oran - Orantı</item>
+        <item>15. Modüler Aritmetik</item>
+        <item>16. Problemler</item>
+        <item>17. Kombinasyon</item>
+        <item>18. Permütasyon</item>
+        <item>19. Olasılık</item>
+        <item>20. Sayısal Mantık</item>
+    </string-array>
+    <string-array name="KTTR">
+        <item>1. Kelime Anlamı</item>
+        <item>2. Cümle Anlamı</item>
+        <item>3. Paragraf</item>
+        <item>4. Dil Bilgisi Ekler</item>
+        <item>5. Sözcüğün Yapısı</item>
+        <item>6. Cümlenin Öğeleri</item>
+        <item>7. Cümle Vurgusu</item>
+        <item>8. Fiil Çatısı</item>
+        <item>9. Cümle Çeşitleri</item>
+        <item>10. Anlatım Bozukluğu</item>
+        <item>11. Ses Bilgisi</item>
+        <item>12. Noktalama İşaretleri</item>
+        <item>13. Yazım Kuralları</item>
+        <item>14. Paragrafta Anlam</item>
+        <item>15. Tamlamalar</item>
+        <item>16. Sözel Mantık</item>
+    </string-array>
+    <string-array name="KTGEO">
+        <item>1. Geometrik Kavramlar</item>
+        <item>2. Üçgen</item>
+        <item>3. Açı Kenar</item>
+        <item>4. Özel Üçgenler</item>
+        <item>5. Üçgende Alan</item>
+        <item>6. Açıortay</item>
+        <item>7. Kenarortay</item>
+        <item>8. Benzerlik</item>
+        <item>9. Çokgenler</item>
+        <item>10. Dörtgenler</item>
+        <item>11. Paralelkenar</item>
+        <item>12. Dikdörtgen</item>
+        <item>13. Kare</item>
+        <item>14. Deltoid</item>
+        <item>15. Yamuk</item>
+        <item>16. Çemberde Açı</item>
+        <item>17. Çemberde Uzunluk</item>
+        <item>18. Çemberde Benzerlik</item>
+        <item>19. Daire Alanı ve Çevresi</item>
+    </string-array>
+</resources>

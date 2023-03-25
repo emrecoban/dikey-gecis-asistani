@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=0.65">
+<title>Dikey Geçiş Asistanı</title>
+<link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+<h2>K&uuml;meler</h2>
+<p>K&uuml;menin kesin bir tanımı yoktur. Matematikte k&uuml;me tanımsız bir kavram olmakla beraber, k&uuml;me denince aklımıza&nbsp; nesnelerden meydana gelen topluluk gelir.</p>
+<p>K&uuml;me kavramını &ouml;rneklerle a&ccedil;ıklayalım.</p>
+<p><strong>&Ouml;rnek:</strong></p>
+<p>A = { 1, 3, a, 4} bir k&uuml;medir. 1, 3, a, 4 bu k&uuml;menin elemanlarıdır. A k&uuml;mesinin 4 tane elemanı vardır. Bunu s(A) = 4 şeklinde yazarak belirtiriz. Bir elemanın k&uuml;meye ait olduğunu &isin;, ait olmadığını &notin; işaretiyle belirtiriz.</p>
+<p>1&isin; A, 3 &isin; A, a &isin; A, 4 &isin; A, 5 &notin;A dır.</p>
+<p><strong>&Ouml;rnek:</strong></p>
+<p>A = { #, 2, {1, 3}, 4} k&uuml;mesi 4 elemanlıdır.</p>
+<p>Yani s(A) = 4 t&uuml;r.</p>
+<p>&nbsp;# &isin; A, 2 &isin; A, {1, 3} &isin; A, 4 &isin; A dır. Ancak&nbsp; 1 &notin; A ve 3 &notin; A dır.</p>
+<h3>Liste Y&ouml;ntemi</h3>
+<p>K&uuml;menin b&uuml;t&uuml;n elemanlarını { } sembol&uuml; i&ccedil;erisine yazarak belirttiğimiz k&uuml;meye liste y&ouml;ntemi ile g&ouml;sterim diyoruz.</p>
+<p><strong>&Ouml;rnek:</strong></p>
+<p>A = { 3, 6, 7, 8, 12}</p>
+<p>B = { a, x, y, z, t, k}</p>
+<p>C = { Mehmet, Hasan, Mustafa, Kemal, Osman, Ali, Zeynep, Gonca}</p>
+<p>D = { ke&ccedil;i, koyun, tavuk, inek, at, zebra}</p>
+<p>k&uuml;meleri liste y&ouml;ntemi ile g&ouml;sterilmiştir.</p>
+<h3>Ortak &Ouml;zelik Y&ouml;ntemi</h3>
+<p>K&uuml;melerin elemanlarının ortak &ouml;zelliğini belirterek yazdığımız k&uuml;meye ortak &ouml;zellik y&ouml;ntemi ile yazılmış k&uuml;me denir.</p>
+<p>&Ouml;rnek:</p>
+<p>A = { x | x, haftanın g&uuml;nleri}</p>
+<p>B = { x | x, sınıfımızdaki g&ouml;zl&uuml;kl&uuml; erkek &ouml;ğrenciler}</p>
+<p>C = { x | -3 &lt; x &lt;20, x tek sayı }</p>
+<p>k&uuml;meleri ortak &ouml;zelik y&ouml;ntemi kullanılarak yazılmış k&uuml;melerdir.</p>
+<h3>Boş K&uuml;me</h3>
+<p>Hi&ccedil; elemanı olmayan k&uuml;meye boş k&uuml;me denir. Boş k&uuml;me { } veya &empty; simgesi ile g&ouml;sterilir.</p>
+<p>s(A) = 0 dır. Yani boş k&uuml;menin eleman sayısı sıfırdır.</p>
+<p><strong>&Ouml;rnek:</strong></p>
+<p>A = {0} k&uuml;mesi boş k&uuml;me değildir.</p>
+<p>0 &isin; A dır ve s(A) = 1 dir.</p>
+<p>B = {&empty;} k&uuml;mesi boş k&uuml;me değildir. &empty; &isin; B dir. s(B) = 1 dir.</p>
+<p>C = { x | x<sup>2</sup> + 4 = 0, x reel sayı} k&uuml;mesi boş k&uuml;medir.</p>
+<p>&Ccedil;&uuml;nk&uuml; x<sup>2 </sup>+ 4 = 0 &rArr; x<sup>2</sup> = -4 olur. Karesi sıfırdan k&uuml;&ccedil;&uuml;k bir sayıya eşit olan bir reel sayıl olmadığı i&ccedil;in C k&uuml;mesi boş k&uuml;medir.</p>
+<p>C = &empty; dir. s(C) = 0 dır.</p>
+<h3>Eşit K&uuml;meler</h3>
+<p>&nbsp;Aynı elemanlardan oluşan k&uuml;melere eşit k&uuml;meler denir.</p>
+<p><strong>&Ouml;rnek:</strong></p>
+<p>A = { x : 2 &lt; x &lt; 8, x asal sayı }</p>
+<p>B = { x :&nbsp;2 &le; x &lt; 9, x tek sayı }</p>
+<p>k&uuml;melerini karşılaştıralım.</p>
+<p>A = { 3, 5, 7 } ve</p>
+<p>B = { 3, 5, 7 } olur.</p>
+<p>A ve B k&uuml;mlerinin b&uuml;t&uuml;n elemanları aynı olduğundan A = B ve s(A) = s(B) dir.</p>
+<h3>Venn Şeması</h3>
+<p>K&uuml;menin elemanlarını kapalı eğrilerle &ccedil;evrilmiş d&uuml;zlem par&ccedil;aları ile belirtmeye, k&uuml;menin venn şeması ile g&ouml;sterilişi denir.</p>
+<p>&Ouml;rnek:</p>
+<p>A = { a, b, c, d }</p>
+<p>B = { Mehmet, Cihat, S&uuml;leyman }</p>
+<p>k&uuml;meleri Venn şeması ile</p>
+<p><img src="img/matematik/kumeler-1.PNG" alt="venn şeması" /></p>
+<p>şeklinde g&ouml;sterilir.</p>
+<h3>Alt K&uuml;me</h3>
+<p>&nbsp;Bir B k&uuml;mesinin b&uuml;t&uuml;n elemanları bir A k&uuml;mesinin de elemanları ise B k&uuml;mesi A k&uuml;mesinin alt k&uuml;mesidir denir. B &sub; A şeklinde yada A &sup; B şeklinde g&ouml;sterilir, A kapsar B diye okunur.</p>
+<p><strong>&Ouml;rnek:</strong></p>
+<p>A = { a, b, c, d, e}&nbsp; ve</p>
+<p>B = { a, d, e } ise</p>
+<p>A k&uuml;mesi B k&uuml;mesini kapsar. Yani B k&uuml;mesi A k&uuml;mesinin alt k&uuml;mesidir.</p>
+<p>B &sub; A veya A &sup; B şeklinde g&ouml;sterilir.</p>
+<p>Bunun venn şeması ile g&ouml;sterimi</p>
+<p><img src="img/matematik/kumeler-2.PNG" alt="alt k&uuml;me" /></p>
+<p>şeklindedir.</p>
+<p><strong>&Ouml;rnek:</strong></p>
+<p>A = { 1, 2, 3, 4, 5}</p>
+<p>B = { 1, 3, 5, 7} ise B k&uuml;mesinin 1, 3, 5 elemanları A k&uuml;mesinin de elemanıdır. Ancak elemanlarından 7 A k&uuml;mesinin elemanı değildir. O halde A k&uuml;mesi B k&uuml;mesini kapsamaz.</p>
+<h3>Alt K&uuml;me &Ouml;zellikleri:</h3>
+<ol>
+    <li>&empty; = { } = boş k&uuml;me, her k&uuml;menin alt k&uuml;mesidir</li>
+    <li>Her k&uuml;me kendisinin alt k&uuml;mesidir. A &sup; A, B &sup; B, &empty; &sup; &empty; gibi</li>
+    <li>İki k&uuml;meden her biri diğerinin alt k&uuml;mesi ise bu iki k&uuml;me eşittir. A &sup; B ve B &sup; A ise A = B dir.</li>
+    <li>A &sup; B ve B &sup; C&nbsp; ise A &sup; C dir.</li>
+</ol>
+<p><strong>Alt k&uuml;me sayısı:</strong></p>
+<p>Bir k&uuml;menin eleman sayısı: n ise</p>
+<p>Alt k&uuml;me sayısı: 2<sup>n</sup></p>
+<p>&Ouml;z alt k&uuml;me sayısı: 2<sup>n</sup> - 1 tanedir.</p>
+<p><strong>&Ouml;rnek:</strong></p>
+<p>A = { 1, a, {2, 3}, 4, #, b} k&uuml;mesinin</p>
+<p>eleman sayısı: s(A) = 6</p>
+<p>alt k&uuml;me sayısı: 2<sup>6</sup> = 64</p>
+<p>&ouml;z alt k&uuml;me sayısı: 2<sup>6</sup> - 1 = 63 d&uuml;r.</p>
+<p><strong>Uyarı:</strong></p>
+<p>n ve r doğal sayı ve n &ge; r ise</p>
+<p>C( n, r ) = n! / (n - r)!. r! dir.</p>
+<p>Bu bilgiyi n elemanlı bir k&uuml;menin r elemanlı alt k&uuml;melerinin sayısını bulurken kullanacağız.</p>
+<p><strong>&Ouml;rnek:</strong></p>
+<p>A = {a, b, c, d, e} k&uuml;mesinin 2 elemanlı alt k&uuml;melerinin sayısı ka&ccedil;tır?</p>
+<p>s(A) = 5 tir.</p>
+<p>C(5, 2) = 5! / (5 - 2)!. 2!</p>
+<p>= 120 / 12</p>
+<p>= 10 dur.</p>
+<p><strong>&Ouml;rnek:</strong></p>
+<p>32 tane alt k&uuml;mesi bulunan bir A k&uuml;mesinin en fazla 2 elemanlı alt k&uuml;melerinin sayısı ka&ccedil;tır?</p>
+<p><strong>&Ccedil;&ouml;z&uuml;m:</strong></p>
+<p>n elemanlı bir k&uuml;menin alt k&uuml;melerinin sayısı:&nbsp;2<sup>n</sup> dir.</p>
+<p>2<sup>n</sup> = 64 ise</p>
+<p>2<sup>n</sup> = 2<sup>6</sup> ise n = 6 dır.</p>
+<p>Bizden istenen alt k&uuml;meler: 0 elemanlı, 1 elemanlı ve 2 elemanlıdır.</p>
+<p>0 elemanlı alt k&uuml;me satısı: 1( boş k&uuml;me)</p>
+<p>1 elemanlı alt k&uuml;me sayısı: 5(eleman sayısı kadar)</p>
+<p>2 elemanlı alt k&uuml;me sayısı: C(5, 2) = 5! / (5 - 2)!. 2! = 5.4.3.2.1 / 3.2.1.2.1 = 10 dur.</p>
+<p>1 + 5 + 10 = <strong>16</strong></p>
+<p><strong>K&uuml;melerin Birleşimi</strong></p>
+<p>A ve B k&uuml;melerinin ortak elemanlarından birer tane (ortak eleman varsa) ortak olmayan elemanların tamamı alınarak oluşturulan yeni k&uuml;meye A ve B k&uuml;melerinin birleşimi denir.</p>
+<p>A U B = { x &isin; A veya x &isin; B} bi&ccedil;iminde yazılır.</p>
+<p>A U B k&uuml;mesi venn şeması ile</p>
+<p><img width="228" height="96" src="img/matematik/kumeler-3.PNG" alt="k&uuml;melerin bileşimi" /></p>
+<p>şeklinde g&ouml;sterilir. Taralı b&ouml;lgenin tamamı A U B k&uuml;mesidir.</p>
+<h3>Birleşimin &Ouml;zellikleri</h3>
+<ol>
+    <li>A U A = A dır.</li>
+    <li>A U &empty; = &empty; U A = A dır.</li>
+    <li>A U B = B U A (Değişme)</li>
+    <li>(A U B) U C = A U (B U C) = A U B U C (Birleşme)</li>
+    <li>A &sub; A U B, B &sub; A U B</li>
+</ol>
+<h3>K&uuml;melerin Kesişimi (Ara Kesit)</h3>
+<p>A ve B k&uuml;meleri verilsin. A ve B k&uuml;melerinin ortak elemanlarını alarak oluşturulan yeni k&uuml;meye A kesişim B k&uuml;mesi denir.</p>
+<p>&nbsp;A &cap; B = { x | x &isin; A ve x &isin; B } bi&ccedil;iminde yazılır.</p>
+<p>&nbsp;C &cap; D = &empty; ise C ve D k&uuml;melerinin ortak elemanı yoktur. Ortak elemanı olmayan k&uuml;melere a<strong>yrık k&uuml;meler</strong> denir.</p>
+<p>Kesişim k&uuml;mesi ile ayrık k&uuml;meler venn şeması ile</p>
+<p><img src="img/matematik/Kumeler_5.gif" alt="kesişim k&uuml;mesi, ayrık k&uuml;meler" /></p>
+<p>bi&ccedil;iminde g&ouml;sterilir.</p>
+<p><strong>&nbsp;&Ouml;rnek:</strong></p>
+<p>A = {-3, -2, -1, 0, 1, 2, 3} ve</p>
+<p>B = { x | 2x -5 &lt; 7, x doğal sayı} ise A &cap; B k&uuml;mesini bulalım.</p>
+<p>B = {0, 1, 2, 3, 4, 5}</p>
+<p>A &cap; B = {0, 1, 2, 3} bulunur.</p>
+<p>Venn şeması ile</p>
+<p><img src="img/matematik/kumeler-5.PNG" alt="kesişim k&uuml;mesi" /></p>
+<p>&nbsp;bi&ccedil;iminde g&ouml;sterilir.</p>
+<h3>Kesişimin &Ouml;zellikleri</h3>
+<ol>
+    <li>&nbsp;A &cap; A = A</li>
+    <li>A &cap; &empty; = &empty; &cap; A = &empty; dır.</li>
+    <li>A &cap; B = B &cap; A (Değişme)</li>
+    <li>(A &cap; B) &cap; C = A &cap; (B &cap; C) = A &cap; B &cap; C (Birleşme)</li>
+    <li>A &cap; B &sub; A, A &cap; B &sub; B</li>
+</ol>
+<p><strong>K&uuml;melerin kesişim ve birleşimi ile ilgili bağıntılar:</strong></p>
+<ol>
+    <li>A U (B &cap; C) = (A U B) &cap; (A U C)</li>
+    <li>A &cap; (B U C) = (A &cap; B) U (A &cap; C)</li>
+    <li>s(A U B) = s(A) + s(B) - s(A &cap; B)</li>
+    <li>s(A U B U C) = s(A) + s(B) s(C) - s(A &cap; B) - s(A &cap; C) - s(B &cap; C) + s(A &cap; B &cap; C)</li>
+</ol>
+<h3>T&uuml;mleme</h3>
+<p>Bir k&uuml;menin t&uuml;mleyeninden s&ouml;z edebilmek i&ccedil;in ilk &ouml;nce <strong>evrensel k&uuml;me</strong> adı verilen ve yeteri kadar elemanı olan bir k&uuml;me belirlemeliyiz.</p>
+<p>Evrensel k&uuml;meyi: E, A k&uuml;mesinin t&uuml;mleyenini de A' bi&ccedil;iminde g&ouml;stereceğiz.</p>
+<p>A' = { x | x &notin; A ve x &isin; E} bi&ccedil;iminde tanımlanır.</p>
+<p>Venn şeması ile</p>
+<p><img src="img/matematik/kumeler-6.PNG" alt="evrensel k&uuml;me" /></p>
+<p>şeklinde g&ouml;sterilir</p>
+<h3>T&uuml;mlemenin &Ouml;zellikleri</h3>
+<ol>
+    <li>(A')' = A</li>
+    <li>(A U B)' = A ' &cap; B'</li>
+    <li>(A &cap; B)' = A' U B'</li>
+    <li>A &sub; B &hArr; B' &sub; A'</li>
+    <li>&empty;' = E, E' =  &empty;</li>
+    <li>A U A' = E</li>
+    <li>A &cap; A' = &empty;</li>
+    <li>s(A) + s(A') = s(E)</li>
+</ol>
+<h3>İki K&uuml;me Farkı</h3>
+<p>Aynı E evrensel k&uuml;mesinde A, B k&uuml;meleri verilsin, A ya ait olup da&nbsp;B ye ait olmayan elemanlardan oluşan k&uuml;meye A ile B nin farkı denir ve A / B veya A - B şeklinde yazılır.</p>
+<p>A - B = A / B = { x | x &isin; A ve x &notin; B } bi&ccedil;iminde ifade edilir.</p>
+<p>x &notin; B &rArr; x &isin; B' dir. O halde;</p>
+<p>A - B =  { x | x &isin; A ve x &isin; B' } = A &cap; B' olur</p>
+<p>Venn şeması ile</p>
+<p><img src="img/matematik/kumeler-7.PNG" alt="iki k&uuml;me farkı" /></p>
+<p>şeklinde g&ouml;sterilir.</p>
+</body>
+</html>

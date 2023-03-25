@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical">
+
+
+    <LinearLayout
+        android:visibility="visible"
+        android:id="@+id/ortalamaLayout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100">
+            <TextView
+                android:layout_weight="50"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@android:color/white"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:text="Sayısal"
+                android:padding="5dp"
+                android:textSize="17dp"/>
+            <TextView
+                android:layout_weight="50"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@android:color/white"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:text="Sözel"
+                android:padding="5dp"
+                android:textSize="17dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100"
+            android:layout_marginBottom="5dp">
+            <TextView
+                android:layout_weight="50"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:id="@+id/tvSayOrt"
+                android:padding="5dp"
+                android:textSize="17dp"/>
+            <TextView
+                android:layout_weight="50"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:id="@+id/tvSozOrt"
+                android:padding="5dp"
+                android:textSize="17dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <ListView
+        android:id="@+id/denemeListesi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="5dp"/>
+
+    <ImageView
+        android:id="@+id/uzgun"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/denemesad"/>
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/uzguntxt"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daha önce hiç deneme eklenmemiş."/>
+
+</LinearLayout>

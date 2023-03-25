@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Mr. COBAN\.android\build-cache\98370e3884643fb1d3b85a992f57bb42989f5c8c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="227bbf04b4eae5247addf6569dc42af539a45f37">
+        <dex dex="D:\AndroidProject\DGSAsistani-v1\app\build\intermediates\pre-dexed\debug\classes_70dd4b5b7c46ace7c7881661eaf66a8ee136da1c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Mr. COBAN\.android\build-cache\fb9c6199f21194cf876ecdff43dcb82bc7bf4deb\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="6de60b559084bc9f17f4d8916aaa35e058831696">
+        <dex dex="D:\AndroidProject\DGSAsistani-v1\app\build\intermediates\pre-dexed\debug\classes_e7521b86229936f4355fabcd2d0ab9ce885ecbba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Mr. COBAN\.android\build-cache\167d19931479243a033d7f1fe6352d4564d510e3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="40392f30a601db5675cdf18192aab013d6fee6ec">
+        <dex dex="D:\AndroidProject\DGSAsistani-v1\app\build\intermediates\pre-dexed\debug\classes_2ab1cb3362665ab75c990ad6b1053683579a0255.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Mr. COBAN\.android\build-cache\41174c54358e37bd87abd63b7e6c9801952942d2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="7ed36108b22a98a311676b5ad153d1e3587fcd16">
+        <dex dex="D:\AndroidProject\DGSAsistani-v1\app\build\intermediates\pre-dexed\debug\classes_34913a650e852c65157e39e3834e847897c24ac7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Mr. COBAN\.gradle\caches\modules-2\files-2.1\android.arch.lifecycle\common\1.0.0\e414a4cb28434e25c4f6aa71426eb20cf4874ae9\common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
+        <dex dex="D:\AndroidProject\DGSAsistani-v1\app\build\intermediates\pre-dexed\debug\common-1.0.0_01fd48784eb0095aa422a56a2b9b7bfc5efb47b9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Mr. COBAN\.android\build-cache\ac4d1579fa9e6d3908b2cf1a45eb20a150c188c1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
+        <dex dex="D:\AndroidProject\DGSAsistani-v1\app\build\intermediates\pre-dexed\debug\classes_26b256c5ff93f1c752ac804ad25829b9faaa6ee3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Mr. COBAN\.android\build-cache\7f60ad987811af3168e66de529bd45d0d9699ec1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="fc3479eb36ae71cbe2a3a589ceda3b8b3b56f08f">
+        <dex dex="D:\AndroidProject\DGSAsistani-v1\app\build\intermediates\pre-dexed\debug\classes_01bc4f8e202a29d41f9d6276c6fccd5d298ac211.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Mr. COBAN\.android\build-cache\d87f78cf2e97763489eea76273f2da4adf1ae092\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="D:\AndroidProject\DGSAsistani-v1\app\build\intermediates\pre-dexed\debug\classes_714dae47b9d15451482d38d0db2af454aba55ac1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Mr. COBAN\.android\build-cache\930369f56337e6328c5278fb1bcb5d770b093950\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\AndroidProject\DGSAsistani-v1\app\build\intermediates\pre-dexed\debug\classes_1c61387fe34706ef0c8accffbffafc0e8e9e91ab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Mr. COBAN\.android\build-cache\f2dead49eb636154b6b6b65b330fad704e7338e8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="787102860a3ae9ed31c934b03ce15ba584a43005">
+        <dex dex="D:\AndroidProject\DGSAsistani-v1\app\build\intermediates\pre-dexed\debug\classes_778fcc8d7a5f0fc30f93f78a86dd484e992d9682.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Mr. COBAN\.android\build-cache\e917a84f3f16874c80711c406051aead445f3cde\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="6f4138a4e065826cb044d49faea4cfd7191773d1">
+        <dex dex="D:\AndroidProject\DGSAsistani-v1\app\build\intermediates\pre-dexed\debug\classes_39e01d824094d8808cd9d8381c8bb8582e7df9a9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Mr. COBAN\.android\build-cache\2564966c290b77d58a7db7754785aceb95bb0d0d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="722f4e3d1abfa535e19043c813c62bb144a7d02f">
+        <dex dex="D:\AndroidProject\DGSAsistani-v1\app\build\intermediates\pre-dexed\debug\classes_7054072278cf5789dc061a3a6204695579c32a48.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Mr. COBAN\.android\build-cache\9c87a1d1fd6fcb7221b9d0910a88896e390d715f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="b4677f6f310d5327f76c7ace262d776b7bf5eb58">
+        <dex dex="D:\AndroidProject\DGSAsistani-v1\app\build\intermediates\pre-dexed\debug\classes_1a63de2e35afd5f96305092ca9002d9ef7a69450.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Mr. COBAN\.android\build-cache\ad092a89bbea48eedce985814c25040af6ad181b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
+        <dex dex="D:\AndroidProject\DGSAsistani-v1\app\build\intermediates\pre-dexed\debug\classes_2d5c3ee133a729c9e8be50310f8fadab92221df5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Mr. COBAN\.android\build-cache\6bdd649c71e8e3c41c9935b496e7a50388e252c9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="4a43035a1c810fd10a647f54fc1166288cf29572">
+        <dex dex="D:\AndroidProject\DGSAsistani-v1\app\build\intermediates\pre-dexed\debug\classes_8198ce925a4ae3a11ebb46aed3ee9a5a263e197b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Mr. COBAN\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\26.1.0\814258103cf26a15fcc26ecce35f5b7d24b73f8\support-annotations-26.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="0814258103cf26a15fcc26ecce35f5b7d24b73f8">
+        <dex dex="D:\AndroidProject\DGSAsistani-v1\app\build\intermediates\pre-dexed\debug\support-annotations-26.1.0_719911467e01f0b7cf053fef41dd491cfa16eeff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Mr. COBAN\.android\build-cache\f1ff1043caf960df832e2c4b333cedcf0ec8560a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="9d31f0c9aeff1136de92e6839c8bc387c4755404">
+        <dex dex="D:\AndroidProject\DGSAsistani-v1\app\build\intermediates\pre-dexed\debug\classes_95963f35d73d596acd2d9ca8b2d46a1b3639c552.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Mr. COBAN\.android\build-cache\f1ff1043caf960df832e2c4b333cedcf0ec8560a\output\jars\libs\noto-emoji-compat-java.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="371b3919bff8e9c9f6e8c9373c3b6f3e1ad553ba">
+        <dex dex="D:\AndroidProject\DGSAsistani-v1\app\build\intermediates\pre-dexed\debug\noto-emoji-compat-java_42c80ff344779486b14f49716b49d2e4bb623b10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Mr. COBAN\.android\build-cache\e9fef958d5b4687ddb6714ec4fed64fabcf5b74e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="72358dbdeba1831dd839d14c4fe344a4b1219690">
+        <dex dex="D:\AndroidProject\DGSAsistani-v1\app\build\intermediates\pre-dexed\debug\classes_5feea110dc6b61fed412b67d5dfb321466531600.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Mr. COBAN\.android\build-cache\47431fb5f24eb81e49a97382185270a8087a776c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="508f50705b4fde51a16259f29c854201a3044516">
+        <dex dex="D:\AndroidProject\DGSAsistani-v1\app\build\intermediates\pre-dexed\debug\classes_8be8360f5ef7c8a25e5b44969a7c791db578bd9c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Mr. COBAN\.gradle\caches\modules-2\files-2.1\android.arch.core\common\1.0.0\a2d487452376193fc8c103dd2b9bd5f2b1b44563\common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
+        <dex dex="D:\AndroidProject\DGSAsistani-v1\app\build\intermediates\pre-dexed\debug\common-1.0.0_ec248dd49ab720c85d370e646bc206450a2e3f1f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Mr. COBAN\.android\build-cache\31f470224ad2c6135e28ed6aeef1610a192e680c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
+        <dex dex="D:\AndroidProject\DGSAsistani-v1\app\build\intermediates\pre-dexed\debug\classes_c63370fb4ff3a1f70503c36844dd652915559b76.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Mr. COBAN\.android\build-cache\d69a8a7a2196d95be0b8e7ef51d575f73f9c0965\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
+        <dex dex="D:\AndroidProject\DGSAsistani-v1\app\build\intermediates\pre-dexed\debug\classes_e669528c3d861b20fcf575eb78e0569a406d7c82.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Mr. COBAN\.android\build-cache\1ae51a1cfd7612494a677ec39d64f47a0e12cb1b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="bac97150719e3dfae3ab1d38d6ccb187935bfac8">
+        <dex dex="D:\AndroidProject\DGSAsistani-v1\app\build\intermediates\pre-dexed\debug\classes_d8e194e1fa43f3c1b02c2c950676d1c3f0c7bd0d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Mr. COBAN\.android\build-cache\7fe6d997fd2978ebf5267b2ca8f16b3b971b57f4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="f428e2fbc9ed0b297e3a3f420e51e6982f66822d">
+        <dex dex="D:\AndroidProject\DGSAsistani-v1\app\build\intermediates\pre-dexed\debug\classes_6f5cd5cdf2804e5a097673490e71bdea1b3f4f3b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Mr. COBAN\.android\build-cache\f62245e701dae30bb7de4b75f23822e8f1e4106e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="cf47665b22d68f560d1b8fa2e51b8c23a34574f2">
+        <dex dex="D:\AndroidProject\DGSAsistani-v1\app\build\intermediates\pre-dexed\debug\classes_8c2732d2e0693c228b8186a576b773019a613344.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Mr. COBAN\.android\build-cache\5bed8559083f7c2c309b2862ebf5932fd6c15803\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
+        <dex dex="D:\AndroidProject\DGSAsistani-v1\app\build\intermediates\pre-dexed\debug\classes_7f2d2df25b207cb40ce041dcfb1ecc6039505330.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:scrollbars="none">
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_anaekran"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@color/LinearBG"
+    tools:context="tr.com.emrecoban.dgsasistani.AnaEkran">
+
+    <LinearLayout
+        android:background="@drawable/shape_zaman"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:padding="10dp"
+            android:textSize="17dp"
+            android:id="@+id/kalanzaman0"
+            android:textAlignment="center"
+            android:gravity="center" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="0dp"
+            android:textSize="17dp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:id="@+id/kalanzaman"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/profil"
+        android:background="@drawable/profil"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp">
+        <LinearLayout
+            android:background="@drawable/shape_zaman"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/avatar"
+                android:layout_gravity="center"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                app:srcCompat="@mipmap/avatar16" />
+            </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="0dp"
+                android:paddingBottom="0dp"
+                android:text="Emre ÇOBAN"
+                android:textAlignment="center"
+                android:textColor="@color/koyusiyah"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/degree"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bilgisayar Programcılığı (69.20)"
+                android:textColor="@color/koyusiyah"
+                android:textSize="14dp"
+                android:textAlignment="center"
+                android:gravity="center" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-8137496943584174/8143105484">
+    </com.google.android.gms.ads.AdView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100">
+        <Button
+            android:layout_weight="50"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:text="Puan Hesapla"
+            android:id="@+id/bPuanHesap"
+            android:drawableTop="@mipmap/bpuanhesapla"/>
+        <Button
+            android:layout_weight="50"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:text="Ö.B.P. Hesapla"
+            android:id="@+id/bOBPHesap"
+            android:drawableTop="@mipmap/bobphesapla"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100">
+        <Button
+            android:layout_weight="50"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:text="BAĞIR ÇAĞIR"
+            android:id="@+id/bBagirCagir"
+            android:drawableTop="@mipmap/bbagircagir" />
+        <Button
+            android:layout_weight="50"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:text="DENEMELERİM"
+            android:id="@+id/bDenemeler"
+            android:drawableTop="@mipmap/bdeneme"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100">
+        <Button
+            android:layout_weight="50"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:text="Konu Anlatımları"
+            android:id="@+id/bKonuAnlat"
+            android:drawableTop="@mipmap/bkonuanlatim" />
+        <Button
+            android:layout_weight="50"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:text="KONU TAKİBİ"
+            android:id="@+id/bKonuTakip"
+            android:drawableTop="@mipmap/btakip"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100">
+        <Button
+            android:layout_weight="50"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:text="EBOB - EKOK"
+            android:id="@+id/bEbobEkok"
+            android:drawableTop="@mipmap/ebobekokhesapla"/>
+        <Button
+            android:layout_weight="50"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:text="Kronometre"
+            android:id="@+id/bSayac"
+            android:drawableTop="@mipmap/bsayac"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start|center_vertical"
+            android:text="    Ayarlar"
+            android:id="@+id/bprofil"
+            android:drawableLeft="@mipmap/bayarlar"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
+</ScrollView>

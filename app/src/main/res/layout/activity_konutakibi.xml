@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TabHost
+            android:id="@+id/tabHost"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TabWidget
+                    android:id="@android:id/tabs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <FrameLayout
+                    android:id="@android:id/tabcontent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <LinearLayout
+                        android:id="@+id/tab1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:weightSum="2">
+                            <TextView
+                                android:id="@+id/bitenKonuMat"
+                                android:layout_weight="1"
+                                android:background="@drawable/tamamlanan_konu"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="85"
+                                android:textColor="@android:color/white"
+                                android:layout_margin="5dp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:textSize="32dp"
+                                android:textAlignment="center"
+                                android:gravity="center" />
+                            <TextView
+                                android:id="@+id/bitenSoruMat"
+                                android:layout_weight="1"
+                                android:background="@drawable/tamamlanan_soru"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="10265"
+                                android:textColor="@android:color/white"
+                                android:layout_margin="5dp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:textSize="32dp"
+                                android:textAlignment="center"
+                                android:gravity="center" />
+                        </LinearLayout>
+
+
+                        <ListView
+                            android:divider="@color/LinearBG"
+                            android:dividerHeight="10dp"
+                            android:id="@+id/LVMat"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/tab2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:weightSum="2">
+                            <TextView
+                                android:id="@+id/bitenKonuTR"
+                                android:layout_weight="1"
+                                android:background="@drawable/tamamlanan_konu"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="85"
+                                android:textColor="@android:color/white"
+                                android:layout_margin="5dp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:textSize="32dp"
+                                android:textAlignment="center"
+                                android:gravity="center" />
+                            <TextView
+                                android:id="@+id/bitenSoruTR"
+                                android:layout_weight="1"
+                                android:background="@drawable/tamamlanan_soru"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="10265"
+                                android:textColor="@android:color/white"
+                                android:layout_margin="5dp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:textSize="32dp"
+                                android:textAlignment="center"
+                                android:gravity="center" />
+                        </LinearLayout>
+
+                        <ListView
+                            android:divider="@color/LinearBG"
+                            android:dividerHeight="10dp"
+                            android:id="@+id/LVTR"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/tab3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:weightSum="2">
+                            <TextView
+                                android:id="@+id/bitenKonuGEO"
+                                android:layout_weight="1"
+                                android:background="@drawable/tamamlanan_konu"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="85"
+                                android:textColor="@android:color/white"
+                                android:layout_margin="5dp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:textSize="32dp"
+                                android:textAlignment="center"
+                                android:gravity="center" />
+                            <TextView
+                                android:id="@+id/bitenSoruGEO"
+                                android:layout_weight="1"
+                                android:background="@drawable/tamamlanan_soru"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="10265"
+                                android:textColor="@android:color/white"
+                                android:layout_margin="5dp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:textSize="32dp"
+                                android:textAlignment="center"
+                                android:gravity="center" />
+                        </LinearLayout>
+
+                        <ListView
+                            android:divider="@color/LinearBG"
+                            android:dividerHeight="10dp"
+                            android:id="@+id/LVGEO"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+
+                    </LinearLayout>
+
+                </FrameLayout>
+            </LinearLayout>
+        </TabHost>
+    </LinearLayout>
+
+</FrameLayout>

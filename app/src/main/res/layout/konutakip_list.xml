@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="#fff"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:elevation="4dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:background="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:paddingLeft="5dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@mipmap/kt_unite"/>
+            <TextView
+                android:padding="10dp"
+                android:textSize="17dp"
+                android:text="Konu Başlığı"
+                android:id="@+id/KonuTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textStyle="bold"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/durumBG"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/durumIco"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@mipmap/konudurum"
+                android:visibility="visible"/>
+            <Switch
+                android:id="@+id/KonuDurum"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Konu Durumu: Tamamlanmadı" />
+        </LinearLayout>
+        <LinearLayout
+            android:padding="10dp"
+            android:weightSum="10"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:gravity="center_vertical|left"
+                android:id="@+id/KonuSoru"
+                android:layout_weight="6"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:text="Soru Sayısı: 0"/>
+            <LinearLayout
+                android:gravity="right"
+                android:layout_weight="4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <Button
+                    android:background="@mipmap/btnpozitif"
+                    android:id="@+id/btnPozitif"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp" />
+                <Button
+                    android:background="@mipmap/btnnegatif"
+                    android:id="@+id/btnNegatif"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp" />
+            </LinearLayout>
+        </LinearLayout>
+</LinearLayout>
+</LinearLayout>

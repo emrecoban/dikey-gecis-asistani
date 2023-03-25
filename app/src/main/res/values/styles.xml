@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorBackground">@color/LinearBG</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
+
+        <item name="android:actionBarStyle">@style/CustomActionBarStyle</item>
+        <item name="actionBarStyle">@style/CustomActionBarStyle</item>
+        <item name="homeAsUpIndicator">@mipmap/arrow_back</item>
+    </style>
+
+    <style name="CustomActionBarStyle" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="background">@color/colorPrimary</item>
+        <item name="android:titleTextStyle">@style/CustomTextColor</item>
+        <item name="titleTextStyle">@style/CustomTextColor</item>
+    </style>
+    
+    <style name="CustomTextColor" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">#fff</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/background_splash</item>
+    </style>
+
+
+
+</resources>

@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=0.65">
+<title>Dikey Geçiş Asistanı</title>
+<link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+<h1>Fonksiyonlar</h1>
+<p>A ve B boş olmayan iki k&uuml;me olmak &uuml;zere, A nın her elemanını B nin bir ve yalnız bir elemanı ile eşleyen bağıntıya <strong>fonksiyon</strong> denir. Bu y&uuml;zden fonksiyonların iyi anlaşılması i&ccedil;in bağıntı konusunun iyi &ouml;ğrenilmesi gerekir.&nbsp;</p>
+<p>x<span style="color: rgb(51, 51, 51); font-family: Arial; font-size: 14px; line-height: 20px;">&nbsp;&isin;&nbsp;</span>A ve y&nbsp;<span style="color: rgb(51, 51, 51); font-family: Arial; font-size: 14px; line-height: 20px;">&isin;</span>&nbsp;B olmak &uuml;zere A'dan B'ye bir fonksiyon f ise:</p>
+<p>f : A&nbsp;&rarr; B, A&nbsp;&rarr;<sup>f</sup> B, x&nbsp;&rarr; y = f(x) bi&ccedil;iminde g&ouml;sterilir.</p>
+<p>&nbsp;A k&uuml;mesine f fonksiyonunun <strong>tanım k&uuml;mesi</strong> B k&uuml;mesine de f fonksiyonunun <strong>değer k&uuml;mesi</strong> denir.</p>
+<p>A tanım k&uuml;mesinin t&uuml;m elemanlarının g&ouml;r&uuml;nt&uuml;lerinin oluşturduğu k&uuml;meye <strong>g&ouml;r&uuml;nt&uuml; k&uuml;mesi</strong> denir ve f(A) ile g&ouml;sterilir.</p>
+<p>Tanıma g&ouml;re, A dan B ye bir bağıntının fonksiyon olabilmesi i&ccedil;in:</p>
+<ol>
+    <li>A tanım k&uuml;mesindeki hi&ccedil; bir elemanın boşta kalmaması</li>
+    <li>A tanım k&uuml;mesindeki her elemanın B değer k&uuml;mesinde yalnız bir g&ouml;r&uuml;nt&uuml;s&uuml;n&uuml;n olması gerekir.</li>
+</ol>
+<h2>Fonksiyon T&uuml;rleri</h2>
+<h3>İ&ccedil;ine Fonksiyon</h3>
+<p>f : A&nbsp;&rarr; B fonksiyonunda</p>
+<p>f(A)&nbsp;<span style="color: rgb(51, 51, 51); font-family: Arial; font-size: 14px; line-height: 20px;">&sub;&nbsp;</span>B ise f fonksiyonuna <strong>i&ccedil;ine fonksiyon</strong> denir. (Yani B değer k&uuml;mesinde a&ccedil;ıkta eleman varsa buna i&ccedil;ine fonksiyon denir.)</p>
+<h3>&Ouml;rten Fonksiyon</h3>
+<p>f : A&nbsp;&rarr; B fonksiyonunda f(A) = B ise f fonksiyonuna <strong>&ouml;rten fonksiyon</strong> denir.</p>
+<h3>Birebir Fonksiyon</h3>
+<p>&nbsp;f : A&nbsp;&rarr; B bir fonksiyon olsun.</p>
+<p>A tanım k&uuml;mesinin farklı elemanlarının g&ouml;r&uuml;nt&uuml;leri daima ise, yani A nın farklı elemanları B nin farklı elemanlarıyla eşleniyorsa, f fonksiyonuna <strong>bire-bir (1 - 1) fonksiyon</strong> denir.</p>
+<p>f : A&nbsp;&rarr; B fonksiyonunda</p>
+<ol>
+    <li><font face="Symbol">&quot;&nbsp;</font>x<sub>1</sub>, x<sub>2</sub>&nbsp;<span style="color: rgb(51, 51, 51); font-family: Arial; font-size: 14px; line-height: 20px;">&isin;</span>&nbsp;A i&ccedil;in x<sub>1</sub> <span style=" white-space: nowrap;">&ne;&nbsp;</span>x<sub>2</sub>&nbsp;&rArr; f(x<sub>1</sub>)&nbsp;<span style="white-space: nowrap;">&ne; f(x<sub>2</sub>) &nbsp;ya da</span></li>
+    <li><font face="Symbol">&quot;&nbsp;</font>x<sub>1</sub>, x<sub>2</sub>&nbsp;<span style="color: rgb(51, 51, 51); font-family: Arial; font-size: 14px; line-height: 20px;">&isin;</span>&nbsp;A i&ccedil;in &nbsp;f(x<sub>1</sub>) =<span style="white-space: nowrap;">&nbsp;f(x<sub>2</sub></span>) &rArr;&nbsp;x<sub>1</sub>&nbsp;=<span style="white-space: nowrap;">&nbsp;</span>x<sub>2 </sub>&ouml;nermelerinden biri doğru is f fonksiyonu bire-bir dir.</li>
+</ol>
+<h3>Sabit Fonksiyon</h3>
+<p>f : A&nbsp;&rarr; B fonksiyonunda A tanım k&uuml;mesinin her elemanı B değer k&uuml;mesinde aynı elemanla eşleşiyorsa, diğer bir deyişle A tanım k&uuml;mesindeki b&uuml;t&uuml;n elemanlarının g&ouml;r&uuml;nt&uuml;leri aynı ise f fonksiyonu <strong>sabit fonksiyon</strong>dur.</p>
+<div class="not">
+<p><strong>Hatırlatma:</strong></p>
+<p>f : R&nbsp;&rarr; R ve h : R&nbsp;&rarr; R fonksiyonlarının grafikleri x-eksenine paralel birer doğru ve g : Z&nbsp;&rarr; Z fonksiyonunun grafiğinde; yine x-eksenine paralel hayali bir doğru &uuml;zerindeki noktalardan oluşur.</p>
+</div>
+<h3>Birim Fonksiyon</h3>
+<p>f : A&nbsp;&rarr; B fonksiyonunda A nın her elemanının g&ouml;r&uuml;nt&uuml;s&uuml; yine kendisi oluyorsa, yani&nbsp;<span style="font-family: Symbol;">&quot;</span>x&nbsp;<span style="color: rgb(51, 51, 51); font-family: Arial; font-size: 14px; line-height: 20px;">&isin;</span>&nbsp;A i&ccedil;in f(x) = x ise f fonksiyonuna <strong>birim fonksiyon</strong> denir ve I<sub>A</sub> yada I ile g&ouml;sterilir.</p>
+<div class="not">
+<p><strong>Hatırlatma:</strong></p>
+<p>I : R&nbsp;&rarr; R, f(x) = x birim fonksiyonunun grafiği birinci a&ccedil;ıortay doğrusudur.</p>
+</div>
+<h3>Eşit Fonksiyonlar</h3>
+<p>I : A&nbsp;&rarr; A, g : A&nbsp;&rarr; B fonksiyonları verilmiş olsun.</p>
+<p><span style="font-family: Symbol;">&quot;</span>x&nbsp;<span style="color: rgb(51, 51, 51); font-family: Arial; font-size: 14px; line-height: 20px;">&isin;</span>&nbsp;A i&ccedil;in f(x) = g(x) ise f ve g fonksiyonlara <strong>eşit fonksiyonlar</strong> denir ve f = g şeklinde g&ouml;sterilir.</p>
+<h3>Tek ve &Ccedil;ift Fonksiyonlar</h3>
+<p>&nbsp;f : R&nbsp;&rarr; R, y = f(x) fonksiyonunda,&nbsp;</p>
+<ol>
+    <li><span style="font-family: Symbol;">&quot;</span>x&nbsp;<span style="color: rgb(51, 51, 51); font-family: Arial; font-size: 14px; line-height: 20px;">&isin;</span>&nbsp;R i&ccedil;in f(-x) = f(x) ise f e <strong>&ccedil;ift fonksiyon</strong> denir.</li>
+    <li><span style="font-family: Symbol;">&quot;</span>x&nbsp;<span style="color: rgb(51, 51, 51); font-family: Arial; font-size: 14px; line-height: 20px;">&isin;</span>&nbsp;R i&ccedil;in f(-x) = -f(x) ise f e <strong>tek fonksiyon</strong> denir.</li>
+</ol>
+<h3>Fonksiyonların Toplamı, Farkı, &Ccedil;arpımı ve B&ouml;l&uuml;m&uuml;</h3>
+<p>f : A&nbsp;&rarr; R, g : B&nbsp;&rarr; R fonksiyonları i&ccedil;in:</p>
+<p>A&nbsp;<span style="color: rgb(51, 51, 51); font-family: Arial; font-size: 14px; line-height: 20px;">&cap;</span>&nbsp;B&nbsp;<span style="white-space: nowrap;">&ne;&nbsp;</span><span style="color: rgb(51, 51, 51); font-family: Arial; font-size: 14px; line-height: 20px;">&empty;&nbsp;</span>olsun.</p>
+<ol>
+    <li>f + g : A&nbsp;<span style="color: rgb(51, 51, 51); font-family: Arial; font-size: 14px; line-height: 20px;">&cap;</span>&nbsp;B&nbsp;&rarr; R;&nbsp;(f + g)(x) = f(x) + g(x) fonksiyonuna f ile g'nin toplamı denir.</li>
+    <li>f - g : A&nbsp;<span style="color: rgb(51, 51, 51); font-size: 14px; line-height: 20px;">&cap;</span>&nbsp;B&nbsp;&rarr; R;&nbsp;(f - g)(x) = f(x) - g(x) fonksiyonuna f ile g'nin farkı denir.</li>
+    <li>f . g : A&nbsp;<span style="color: rgb(51, 51, 51); font-size: 14px; line-height: 20px;">&cap;</span>&nbsp;B&nbsp;&rarr; R;&nbsp;(f . g)(x) = f(x) . g(x) fonksiyonuna f ile g'nin &ccedil;arpımı denir.</li>
+    <li>g(x)&nbsp;<span style="white-space: nowrap;">&ne; 0, f / g : A&nbsp;</span><span style="color: rgb(51, 51, 51); font-family: Arial; font-size: 14px; line-height: 20px;">&cap;&nbsp;</span>B&nbsp;&rarr; R;&nbsp;(f / g)(x) = f(x) / g(x) fonksiyonuna f'nin g'ye b&ouml;l&uuml;m&uuml; denir.</li>
+    <li>k&nbsp;<span style="color: rgb(51, 51, 51); font-size: 14px; line-height: 20px;">&isin;&nbsp;</span>R olmak &uuml;zere ; k . f : A&nbsp;&rarr; R (k.f)(x) = k . f(x) fonksiyonuna k ile f'nin &ccedil;arpımı denir.</li>
+</ol>
+<h3>Bir Fonksiyonun Tersi</h3>
+<p>f : A&nbsp;&rarr; B, y = f(x) fonksiyonu verilmiş olsun.</p>
+<p>f<sup>-1</sup> : B&nbsp;&rarr; A, x = f<sup>-1</sup>(y) bağıntısına, (B den A ya olan bağıntıya) f nin<strong> ters fonksiyon</strong>u denir.</p>
+<div class="not">
+<ul>
+    <li>f : A&nbsp;&rarr; B fonksiyonu bire-bir ve &ouml;rten ise; f nin tersi olan f<sup>-1</sup> : B&nbsp;&rarr; A bağıntısı da fonksiyondur.</li>
+    <li>f : A&nbsp;&rarr; B fonksiyonu bire-bir ve &ouml;rten fonksiyon ise; f nin tersi olan f<sup>-1</sup>&nbsp;: B&nbsp;&rarr; A bağıntısı da bire-bir ve &ouml;rten fonksiyondur.</li>
+    <li>&nbsp;f fonksiyonu bire-bir ve &ouml;rten değilse; f<sup>-1</sup> bağıntısı fonksiyon değildir.</li>
+</ul>
+</div>
+<h3>Bileşke Fonksiyon</h3>
+<p>&nbsp;f : A&nbsp;&rarr; B, &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; y = f(x)</p>
+<p>g : B&nbsp;&rarr; C, &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;z = g(y) olmak &uuml;zere</p>
+<p>gof : A&nbsp;&rarr; C,</p>
+<p>(gof)(x) = g(f(x)) fonksiyonuna f ile g'nin <strong>bileşke fonksiyon</strong>u denir ve gof diye yazılır. (gof : Yazılışı g bileşke f diye okunur. )</p>
+<p><strong>Bileşke İşleminin &Ouml;zellikleri:</strong></p>
+<ul>
+    <li>Bileşke işleminin değişme &ouml;zelliği yoktur. fog&nbsp;<span style="white-space: nowrap;">&ne; gof</span></li>
+    <li>Bileşke işleminin değişme &ouml;zelliği vardır. fo(goh) = (fog)oh</li>
+    <li>I birim fonksiyon olmak &uuml;zere, foI = lof = f dir.</li>
+    <li>fof<sup>-1</sup> = f<sup>-1</sup>of = I dir.</li>
+    <li>(fog)<sup>-1</sup> = g<sup>-1</sup>of<sup>-1</sup> dir.</li>
+    <li>(f<sup>-1</sup>)<sup>-1</sup> = f dir.</li>
+</ul>
+<h3>Perm&uuml;tasyon Fonksiyon</h3>
+<p>A sonlu bir k&uuml;me olmak &uuml;zere f : A&nbsp;&rarr; A fonksiyonu bire-bir ve &ouml;rten ise f fonksiyonuna <strong>A'nın bir perm&uuml;tasyonu</strong> denir.</p>
+<div class="not">
+<p><strong>Hatırlatma:</strong></p>
+<p>s(A) = n ise A nın perm&uuml;tasyonlarının sayısı n! kadardır.</p>
+</div>
+<h3>A dan B ye Bağıntı ve Fonksiyon Sayıları</h3>
+<p>&nbsp;f : A&nbsp;&rarr; B fonksiyonunda</p>
+<p>s(A) = m, s(B) = n ise;</p>
+<ol>
+    <li>A dan B ye tanımlı fonksiyonların sayısı n<sup>m</sup> dir.&nbsp;</li>
+    <li>Bire-bir fonksiyonların sayısı n&nbsp;&ge; m olmak &uuml;zere P(n, m) = n! / (n - m)! dir.</li>
+    <li>Sabit fonksiyonların sayısı n dir.</li>
+    <li>A da tanımlanabilecek bire-bir ve &ouml;rten fonksiyonların sayısı P(m, m) = m! dir.</li>
+    <li>A k&uuml;mesinde tanımlı bire-bir ve &ouml;rten olmayan fonksiyonların sayısı m<sup>m</sup> - m! dir.</li>
+    <li>A dan B ye fonksiyon olmayan bağıntıların sayısı 2<sup>m.n</sup> - n<sup>m</sup> dir.</li>
+</ol>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#31a3cf</color>
+    <color name="colorPrimaryDark">#1a97c4</color>
+    <color name="colorAccent">#1a97c4</color>
+    <color name="LinearBG">#eaeaea</color>
+    <color name="koyusiyah">#585858</color>
+    <color name="KLinearBG">#e4e4e4</color>
+    <color name="bildirimLayoutBG">#fff</color>
+    <color name="yesil">#1ac41d</color>
+    <color name="Kyesil">#17b736</color>
+    <color name="Kmavi">#09769e</color>
+    <color name="beyaz">#fff</color>
+    <color name="logocolor">#36A0F4</color>
+</resources>

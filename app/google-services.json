@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "817578007292",
+    "firebase_url": "https://dikey-gecis-asistani-b8d7c.firebaseio.com",
+    "project_id": "dikey-gecis-asistani-b8d7c",
+    "storage_bucket": "dikey-gecis-asistani-b8d7c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:817578007292:android:f394cf27c42918c7",
+        "android_client_info": {
+          "package_name": "tr.com.emrecoban.dgsasistani"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "817578007292-73bqdnmqc01b6og5vkr6i4r4r6mlu769.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tr.com.emrecoban.dgsasistani",
+            "certificate_hash": "43041b875afc9a56bc3238c76be44b07e2a770c4"
+          }
+        },
+        {
+          "client_id": "817578007292-ou4p6gm8pkqd6i6lc002qm1non8jbgsg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiEFhZWiimvMixoyY3oQuYDEEggj27gGI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "817578007292-ou4p6gm8pkqd6i6lc002qm1non8jbgsg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
