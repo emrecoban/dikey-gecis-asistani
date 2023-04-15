@@ -58,5 +58,11 @@ Dikey Gecis Asistani requires the following permissions:
 - Java
 - Firebase
 
+## Support 
+- Sponsor to me on GitHub.
+- Give a star to this repo.
+- Follow me on Twitter [@emreshepherd](https://twitter.com/emreshepherd), or GitHub [@emrecoban](https://github.com/emrecoban).
+- Buy me a coffee, or book: https://www.buymeacoffee.com/emrecoban
+
 ## License
 Dikey Gecis Asistani is an open-source project licensed under the MIT License. See [the LICENSE file](LICENSE) for details.
